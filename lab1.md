@@ -15,7 +15,7 @@
 
 ### 2. Анализ запроса
 
-- **URL запроса**: `http://sandbox.usm.md/login/process.php`
+- **URL запроса**: `http://sandbox.usm.md/login`
 - **Метод запроса**: `POST`
 - **Код состояния**: `401 Unauthorized`
 
