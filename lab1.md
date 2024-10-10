@@ -30,7 +30,7 @@
 Какие заголовки были отправлены в запросе?
 
 Content-Type: application/x-www-form-urlencoded
-User-Agent: Имя Фамилия (замените на ваше имя и фамилию)
+User-Agent: Nicolae Galuscenco
 Host: sandbox.com
 Какие параметры были отправлены в запросе?
 
@@ -46,14 +46,22 @@ year=2020
 
 
 Accept: */*
+
 Accept-Encoding: gzip, deflate
+
 Accept-Language: en-US,en;q=0.9,ru;q=0.8
+
 Connection: keep-alive
+
 Content-Length: 37
 Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
 Host: sandbox.usm.md
+
 Origin: http://sandbox.usm.md
+
 Referer: http://sandbox.usm.md/login/
+
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 X-Requested-With: XMLHttpRequest
 
