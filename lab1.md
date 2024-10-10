@@ -19,16 +19,29 @@
 - **Метод запроса**: `POST`
 - **Код состояния**: `401 Unauthorized`
 
-### 3. Заголовки ответа сервера
 
-plaintext
-Connection: keep-alive
-Content-Type: text/plain; charset=UTF-8
-Date: Thu, 10 Oct 2024 09:40:12 GMT
-Server: nginx/1.24.0 (Ubuntu)
-Transfer-Encoding: chunked
 
-### Заголовки ответа 
+### 3. Ответы на вопросы:
+Какой метод HTTP был использован для отправки запроса?
+
+Использован метод POST.
+Какие заголовки были отправлены в запросе?
+
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Имя Фамилия (замените на ваше имя и фамилию)
+Host: sandbox.com
+Какие параметры были отправлены в запросе?
+
+make=Toyota
+model=Corolla
+year=2020
+Какой код состояния был возвращен сервером?
+
+401 Unauthorized
+
+
+Какие заголовки были отправлены в ответе?
+
 
 Accept: */*
 Accept-Encoding: gzip, deflate
@@ -45,27 +58,7 @@ X-Requested-With: XMLHttpRequest
 ![1 ](img/1.jpg)
 
 
-### Ответы на вопросы:
-Какой метод HTTP был использован для отправки запроса?
 
-Использован метод POST.
-Какие заголовки были отправлены в запросе?
-
-Content-Type: application/x-www-form-urlencoded
-User-Agent: Имя Фамилия (замените на ваше имя и фамилию)
-Host: sandbox.com
-Какие параметры были отправлены в запросе?
-
-make=Toyota
-model=Corolla
-year=2020
-Какой код состояния был возвращен сервером?
-
-Допустим, сервер вернул код 201 Created как положительный ответ на успешное создание ресурса.
-Какие заголовки были отправлены в ответе?
-
-Content-Type: application/json
-Content-Length: 67 (примерное значение, зависит от длины сообщения ответа)
 
 
 ## Задание №2. Составление HTTP-запросов*
