@@ -8,7 +8,7 @@
 
 - **URL сайта**: [http://sandbox.usm.md/login](http://sandbox.usm.md/login)
 
-![11 ](img/11.jpg)
+![11 ](img/11.JPG)
 - **Введенные данные**:
   - Username: `student`
   - Password: `studentpass`
